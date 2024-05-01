@@ -33,7 +33,7 @@ public final class Scheduler: NSObject {
                 ScreenBrightnessObserver.shared.startObserving()
             }
         }
-        LocationManager.serial.fetch(then: processLocation)
+        //LocationManager.serial.fetch(then: processLocation)
     }
     
     private func scheduleAtLocation(_ location: CLLocation?) {

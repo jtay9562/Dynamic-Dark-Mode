@@ -33,7 +33,9 @@ final class ScreenBrightnessObserver: NSObject {
         let service = IOServiceGetMatchingService(kIOMasterPortDefault, IOServiceMatching("AppleBacklightDisplay"))
         guard service != IO_OBJECT_NULL else {
             #if DEBUG
-            fatalError("AppleBacklightDisplay is IO_OBJECT_NULL")
+            //fatalError("AppleBacklightDisplay is IO_OBJECT_NULL")
+            print("yo")
+            return
             #else
             return remindReportingBug(NSLocalizedString(
                 "ScreenBrightnessObserver.startObserving.failed",

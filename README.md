@@ -1,5 +1,9 @@
 # Dynamic Dark Mode
 
+
+## Joshua Changes
+I would like to disable location features entirely. Remove this message: "You did NOT authorize Dynamic Dark Mode to get your location."
+
 <a href="https://www.producthunt.com/posts/dynamic-dark-mode?utm_source=badge-featured" target="_blank" id="product-hunt"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=145745&theme=light" alt="Dynamic Dark Mode - The smart, automatic Dark Mode toggle for macOS Mojave | Product Hunt Embed" style="height: 50px;" height="50px" /></a>
 
 *Dynamic Dark Mode* is the app you are looking for to power up Dark Mode on macOS Mojave and beyond.
